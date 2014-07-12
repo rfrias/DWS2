@@ -93,7 +93,7 @@
 p[class~="blue"]{
 	color: red;}
 /*---------------------------Structural Pseudo-Classes (any)---------------------------*/
-P:only-child{
+p:only-child{
 	font-style: italic;
 	text-align: center;}
 /*---------------------------nTH Sekector---------------------------*/
