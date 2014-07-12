@@ -1,0 +1,1 @@
+Ramon Rafael G. Frias IVGit Repository:https://github.com/rfrias/DWS2/tree/gh-pagesLive site using gh-pages (partone.html):http://rfrias.github.io/DWS2/W1/p1_assignment/partone.htmlLive site using gh-pages (partwo.html): http://rfrias.github.io/DWS2/W1/p2_assignment/parttwo.html

@@ -50,6 +50,11 @@ Date: 11 July 2014
 	table {
 		border-collapse: collapse;
 		border-spacing: 0; }
+	footer {
+		clear: both;
+		background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+		border-radius: 12px; 
+		padding-left: 10px;}
 
 
 /* #Basic Styles
@@ -118,7 +123,15 @@ Date: 11 July 2014
 
 /* #Images
 ================================================== */
-
+	#skeleton2_container {
+	border: 8px solid #FFF;
+	border-radius: 12px;
+	width: 80%;
+	margin: 0 auto;}
+	
+	#skeleton2_container img {
+	max-width: 100%;}
+	
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
