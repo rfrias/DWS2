@@ -1,0 +1,46 @@
+/*this is a custom CSS stylesheet
+Submitted By: Ramon Rafael G. Frias IV;
+*/
+/*------------------------------ BODY ------------------------------*/
+body {
+	background-color: #f0f0f0;
+	padding-top: 70px 0 70px 0; 
+}
+/*------------------------------ JUMBOTRON ------------------------------*/
+.jumbotron{
+	background-color: #d9534f;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+/*------------------------------ NAVIGATION ------------------------------*/
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: #d9534f;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #d9534f;
+	color: white;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: black;
+}
+/*------------------------------ ASIDE ------------------------------*/
+aside {
+	padding: 1em 1em 1em 1em;
+}
+/*------------------------------ FOOTER ------------------------------*/
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+	clear: both;
+}
