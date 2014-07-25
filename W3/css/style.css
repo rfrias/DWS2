@@ -1,0 +1,290 @@
+/* CSS Document */
+/* ----------------------------------- BODY ----------------------------------- */
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #BCA3A3;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ----------------------------------- ELEMENT/TAG SELECTORS ----------------------------------- */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+/* ----------------------------------- LINKS ----------------------------------- */
+a:link {
+	color:#414958;
+	text-decoration: underline;
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+/* ----------------------------------- CONTAINER ----------------------------------- */
+.container {
+	width: 80%;
+	max-width: 1260px;
+	min-width: 780px;
+	background-color: #FFF;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+/* ----------------------------------- HEADER ----------------------------------- */
+.header {
+	background-color: none;
+}
+.transEx {
+	margin: 2em;
+	width: 120px;
+	height: 40px;
+	border: 1px solid;
+	border-color: #000;
+	background-color: #FF9C0D;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: .5em;
+	transition: all 3s .5s;
+}
+#default {	
+	transition-timing-function: ease;	
+}
+.transEx:hover {
+	background-color: #d9534f;
+	color: #000;
+	cursor: pointer;
+	transform: translate(900px, 0);
+}
+/*------------------------------ JUMBOTRON ------------------------------*/
+.jumbotron{
+	background-color: #d9534f;
+	
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+#rotate:hover {
+	-webkit-transform: rotate(180deg);
+}
+
+/* ----------------------------------- SIDEBAR ----------------------------------- */
+.sidebar1 {
+	float: left;
+	width: 20%;
+	background-color: #ED930C;
+	margin-top: 10px;
+	padding-bottom: 7px;
+	border-radius: 12px;
+}
+.content {
+	padding: 10px 0;
+	width: 80%;
+	float: left;
+}
+/* ----------------------------------- SCALE ----------------------------------- */
+#scale:hover {
+	-webkit-transform: scale(1.01,1.01);
+}
+/* ----------------------------------- SKEW ----------------------------------- */
+.skewX:hover {
+	-webkit-transform: skewX(-25deg);
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+ul.nav li {
+	border-bottom: 1px solid #666;
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	text-decoration: none;
+	background-color: #FFFF0D;
+	color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #FF9C0D;
+	color: #FFF;
+	transition-property: background;
+	transition-duration: 1s;
+}
+/* ----------------------------------- ASIDE ----------------------------------- */
+aside {
+	padding: 1em 1em 1em 1em;
+	width: 300px;
+	padding: 10px;
+	border: 1px #d9534f solid;
+	margin-bottom: 10px;
+}
+/* ----------------------------------- SKEW ----------------------------------- */
+#skewX:hover {
+	-webkit-transform: skewX(-25deg);
+}
+/* ----------------------------------- FORMS ----------------------------------- */
+.forms {
+	clear:both;	
+}
+
+.group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.group:after { clear: both; }  
+.group { zoom: 1; }  
+
+#frmContact {
+	background: #d9534f;
+	margin: 1em 0;
+	-webkit-border-radius: 0 .5em .5em 0;
+	-moz-border-radius: 0 .5em .5em 0;
+	border-radius: 0 .5em .5em 0;
+	padding: 20px;
+}
+
+/*form styles*/
+fieldset {
+	border: none;
+	float: left;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display:block;
+	font-size: 1em;
+	margin: .8em 0 0;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea {
+	width: 250px;
+}
+
+input[type="submit"] {
+	display:block;
+	margin: 1em 0;
+}
+
+.inline {
+	display: inline-table;
+}
+
+
+fieldset:before {
+	content:attr(title);
+	display: block;
+	font: 1.2em Courier New, Arial;
+	font-weight:bold;
+	border-bottom: 1px solid rgb(76, 67, 65);
+}
+
+legend {
+	display: none;
+}
+button {
+	float: right;
+	color: #FF995E;
+	margin-top: 1em;
+	padding: 5px 10px;
+
+	background: #853330;
+	background: -webkit-linear-gradient(#d9534f,#853330) no-repeat;
+	background: -moz-linear-gradient(#d9534f,#853330) no-repeat;
+	background: -o-linear-gradient(#d9534f,#853330) no-repeat;
+	background: -ms-linear-gradient(#d9534f,#853330) no-repeat;
+	background: linear-gradient(#d9534f,#853330) no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9534f', endColorstr='#853330',GradientType=0 );
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+/* ----------------------------------- LINK TO ANOTHER PAGE ----------------------------------- */
+#thanks {
+	font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+
+	background: url(greytexture.jpg) #DDD;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	padding: 20px;
+}
+
+#thanks h2 {
+	color: #a3643d;
+}
+/* ----------------------------------- FOOTER ----------------------------------- */
+.footer {
+	position: relative;
+	clear: both;
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+/* ----------------------------------- FLOAT ----------------------------------- */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+/* ----------------------------------- MEDIA QUERY ----------------------------------- */
+	
+
+@media only screen and (max-device-width: 480px) {
+
+	fieldset {
+		border: none;
+		background: #d9534f;
+		position: relative;
+		width: 80%;
+		padding:1em;
+		margin: 1em 0;
+		-webkit-border-radius: 0 .5em .5em 0;
+		-moz-border-radius: 0 .5em .5em 0;
+		border-radius: 0 .5em .5em 0;
+		float: none;
+	}
+
+	fieldset:before {
+		width: 80%;
+	}
+
+}
+
