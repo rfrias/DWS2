@@ -1,4 +1,10 @@
 /* CSS Document */
+/* ----------------------------------- FIXED ELEMENT ----------------------------------- */
+#fixedText {
+	position: fixed;
+	left: 5px;
+	top: 5px;
+}
 /* ----------------------------------- BODY ----------------------------------- */
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
