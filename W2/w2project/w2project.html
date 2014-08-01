@@ -7,17 +7,14 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <script src="js/respond.js"></script>
-    <ul>
-        <li><a href="#">Submitted By: Ramon Rafael G. Frias IV</a></li>
-    </ul>
 </head>
 
 <body>
+<div id="fixedText" class="hidden-xs">W4 Project</div>
 <div class="container">
     <!-- row 1: navigation -->
     <div class="row">
-        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <nav class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -27,12 +24,13 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Photo Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="#ContactInfo">Contact</a></li>
+                    <li><a href="#submittedBy">Submitted By</a></li>
                     <li>
-                        <form class="form-inline" role="form">
+                        <form class="form-inline padForNavbar" role="form">
                           <div class="form-group">
                             <label class="sr-only" for="exampleInputEmail2">Username</label>
                             <input type="username" class="form-control" id="exampleInputEmail2" placeholder="Username">
@@ -50,65 +48,63 @@
     </div>  
     <!-- row 2 -->
     <div class="jumbotron">
-    	<img src="img/jumbotronGuitar.jpg" alt="" class="pull-left img-responsive img-circle">
-        <h1> Types of Guitars</h1>
-        <p>Playing different guitars in a music shop is a great way of familiarising yourself with each model's unique qualities but don't forget to take off any objects that could scratch the guitar.</p>
+    	<img src="img/reptiles.jpg" alt="" id="rotate" class="hidden-xs pull-left img-responsive img-rounded">
+        <h1>REPTILES</h1>
+        <p class="hidden-xs firstP">Reptiles, the class Reptilia, are an evolutionary grade of animals, comprising today's turtles, crocodilians, snakes, lizards and tuatara, as well as many extinct groups. A reptile is any amniote (a tetrapod whose egg has an additional membrane, originally to allow them to lay eggs on land) that is neither a mammal nor a bird.[1] Unlike mammals, birds, and certain extinct reptiles, living reptiles have scales or scutes (rather than fur or feathers) and are cold-blooded. Advocates of phylogenetic nomenclature regard the traditional category 'Reptilia' to be invalid, and prefer to use the 'Amniota' or rather 'Sauropsida' category, because not all descendants of a common ancestor are included. However, in practice, these non-cladistic classifications, such as reptile, fish, and amphibian, remain in use by some biologists, especially in popular books written for a general audience. The historically combined study of reptiles and amphibians is called herpetology.</p>
     </div>
     
     <!-- row 3 -->
     <div class="row">
-    	<div class="col-md-2 col-xs-6">
+    <a name="About"></a>
+    	<div class="col-lg-3 col-md-12 col-xs-12">
             <div class="thumbnail">
-                <p><img src="img/AcousticGuitar.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Acoustic Guitar</h4>
-                  <p>An acoustic guitar is a guitar that uses only acoustic (as opposed to electronic) means to transmit the strings' vibrational energy to the air in order to produce a sound. This typically involves the use of a sound board and a sound box to amplify the vibrations of the string.</p>
-                <p><a href="http://en.wikipedia.org/wiki/Acoustic_guitar" class="btn btn-danger btn-block">Read more >></a></p>
+                <p><img src="img/history.jpg" alt="" class="img-responsive img-rounded"></p>
+                <h4>History of Classification</h4>
+                  <p>The reptiles were, from the outset of classification, grouped with the amphibians. Linnaeus, working from species-poor Sweden, where the common adder and grass snake are often found hunting in water, included all reptiles and amphibians in class "III – Amphibia" in his Systema Naturæ. The terms "reptile" and "amphibian" were largely interchangeable, "reptile" (from Latin repere, "to creep") being preferred by the French.
+
+Josephus Nicolaus Laurenti was the first to formally use the term "Reptilia" for an expanded selection of reptiles and amphibians basically similar to that of Linnaeus. Today, the two groups are still commonly treated under the same heading as herptiles.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#History_of_classification" id="scale" class="btn btn-danger btn-lrg">Read more >></a></p>
             </div>
         </div>
-        <div class="col-md-2 col-xs-6">
+        <div class="col-lg-3 col-md-12 col-xs-12">
             <div class="thumbnail">
-                <p><img src="img/ElectricGuitar.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Electric Guitar</h4>
-                <p>An electric guitar is a guitar that uses a pickup to convert the vibration of its strings into electrical impulses. The most common guitar pickup uses the principle of direct electromagnetic induction. The signal generated by an electric guitar is too weak …</p>
-                <p><a href="http://en.wikipedia.org/wiki/Electric_guitar" class="btn btn-danger btn-block">Read more >></a></p>
+                <p><img src="img/evolution.jpg" alt="" class="img-responsive img-rounded"></p>
+                <h4>Evolutionary History</h4>
+                <p>The origin of the reptiles lies about 310–320 million years ago, in the steaming swamps of the late Carboniferous period, when the first reptiles evolved from advanced reptiliomorph labyrinthodonts.
+
+The oldest known animal that may have been an amniote, i.e. a primitive reptile rather than an advanced amphibian, is Casineria (though it may have been a temnospondyl amphibian). A series of footprints from the fossil strata of Nova Scotia dated to 315 Ma show typical reptilian toes and imprints of scales.
+
+The tracks are attributed to Hylonomus, the oldest unquestionable reptile known. It was a small, lizard-like animal, about 20 to 30 centimetres (7.9 to 11.8 in) long, with numerous sharp teeth indicating an insectivorous diet. Other examples include Westlothiana (for the moment considered a reptiliomorph amphibian rather than a true amniote) and Paleothyris, both of similar build and presumably similar habit.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Evolutionary_history" id="scale" class="btn btn-danger btn-lrg">Read more >></a></p>
             </div>
         </div>
-        <div class="col-md-2 col-xs-6">
+        <div class="col-lg-3 col-md-12 col-xs-12">
             <div class="thumbnail">
-                <p><img src="img/Ovation.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Ovation Guitar</h4>
-                <p>Ovation guitar design reflects its founder's engineering training and development of Kaman helicopters. Ovation guitars replace the instrument's conventional back and sides with composite synthetic bowls. Kaman felt there were structural ... </p>
-                <p><a href="http://en.wikipedia.org/wiki/Ovation_Guitar_Company" class="btn btn-danger btn-block">Read more >></a></p>
+                <p><img src="img/systems.jpg" alt="" class="thumbnail img-responsive img-rounded"></p>
+                <h4>Systems</h4>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Circulation">Circulation</a> - Most reptiles have a three-chambered heart consisting of two atria, one variably partitioned ventricle, and two aortas that lead to the systemic circulation.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Metabolism">Metabolism</a> - Reptiles exhibit some form of cold-bloodedness so that they have limited physiological means of keeping the body temperature constant and often rely on external sources of heat.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Respiration">Respiration</a> - All reptiles breathe using lungs. Aquatic turtles have developed more permeable skin, and some species have modified their cloaca to increase the area for gas exchange.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Skin">Skin</a> - Reptilian skin is covered in a horny epidermis, making it watertight and enabling reptiles to live on dry land, in contrast to amphibians.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Excretion">Excretion</a> - Excretion is performed mainly by two small kidneys. In diapsids, uric acid is the main nitrogenous waste product; turtles, like mammals, excrete mainly urea.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Nerves">Nerves</a> - The reptilian nervous system contains the same basic part of the amphibian brain, but the reptile cerebrum and cerebellum are slightly larger. </p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Vision">Vision</a> - Most reptiles are diurnal animals. The vision is typically adapted to daylight conditions, with color vision and more advanced visual depth perception than in amphibians and most mammals.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Reproduction">Reproduction</a> - Reptiles generally reproduce sexually, though some are capable of asexual reproduction. All reproductive activity occurs through the cloaca, the single exit/entrance at the base of the tail where waste is also eliminated.</p>
+                <p><a href="http://en.wikipedia.org/wiki/Reptile#Systems" id="scale" class="btn btn-danger btn-lrg">Read more >></a></p>
             </div>
         </div>
-        <div class="col-md-2 col-xs-6">
+        <div class="col-lg-3 col-md-12 col-xs-12">
             <div class="thumbnail">
-                <p><img src="img/BassGuitar.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Bass Guitar</h4>
-                <p>The bass guitar(also called electric bass or simply bass; /ˈbeɪs/) is a stringed instrument played primarily with the fingers or thumb, by plucking, slapping, popping, tapping, thumping, or picking with a plectrum, often known as a pick. The bass guitar ...</p>
-                 <p><a href="http://en.wikipedia.org/wiki/Bass_guitar" class="btn btn-danger btn-block">Read more >></a></p>
-            </div>
-         </div>
-         <div class="col-md-2 col-xs-6">
-            <div class="thumbnail">
-                <p><img src="img/ResonatorGuitar.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Bass Guitar</h4>
-                <p>A resonator guitar or resophonic guitar is an acoustic guitar whose sound is produced by one or more spun metal cones (resonators) instead of the wooden sound board (guitar top/face). Resonator guitars were originally designed to be louder than regular ...</p>
-                 <p><a href="http://en.wikipedia.org/wiki/Resonator_Guitar" class="btn btn-danger btn-block">Read more >></a></p>
-            </div>
-         </div>
-         <div class="col-md-2 col-xs-6">
-            <div class="thumbnail">
-                <p><img src="img/ArchtopGuitar.jpg" alt="" class="img-responsive img-rounded"></p>
-                <h4>Bass Guitar</h4>
-                <p>An archtop guitar is a steel-stringed acoustic or semi-acoustic guitar with a full body and a distinctive arched top, whose sound is particularly popular with jazz players. The archtop guitar is often credited to Orville Gibson, whose innovative designs ...</p>
-                 <p><a href="http://en.wikipedia.org/wiki/Archtop_Guitar" class="btn btn-danger btn-block">Read more >></a></p>
+                <p><img src="img/defMech.jpg" alt="" class="img-responsive img-rounded"></p>
+                <h4>Defense Mechanism</h4>
+                <p>Many small reptiles, such as snakes and lizards that live on the ground or in the water, are vulnerable to being preyed on by all kinds of carnivorous animals. Thus avoidance is the most common form of defense in reptiles. At the first sign of danger, most snakes and lizards crawl away into the undergrowth, and turtles and crocodiles will plunge into water and sink out of sight.</p>
+                 <p><a href="http://en.wikipedia.org/wiki/Reptile#Defense_mechanisms" id="scale" class="btn btn-danger btn-lrg">Read more >></a></p>
             </div>
          </div>
     </div>
 
-    <aside class="col-lg-6 col-md-5">
-            <h3>Contact information</h3>
+    <aside id="skewX" class="col-lg-12">
+            <h3><a name="ContactInfo"></a>Contact Information</h3>
             <div class="table-responsive">
               <table class="table table-condensed">
                 <thead>
@@ -120,19 +116,19 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Webber</td>
+                    <td>Hunt</td>
                     <td>(123) 456-7890</td>
-                    <td>webber.deltore@guitar.us</td>
+                    <td>hunt.owen@retiles.us</td>
                   </tr>
                   <tr>
                     <td>Shepeard</td>
                     <td>(123) 456-7890</td>
-                    <td>shepeard.faker@guitar.us</td>
+                    <td>shepeard.faker@retiles.us</td>
                   </tr>
                   <tr>
-                    <td>Burke</td>
+                    <td>Grey</td>
                     <td>(123) 456-7890</td>
-                    <td>burke.preston@guitar.us</td>
+                    <td>grey.merideth@reptiles.us</td>
                   </tr>
                 </tbody>
               </table>
@@ -142,14 +138,11 @@
     <!-- row 4 -->
 
     <footer class="row">
+    <div id="default" class="transEx"><strong><a name="submittedBy"></a>Sumbitted By :</strong> Ramon Frias</a> </div>
          <p><small>Disclaimer: I do not own the rights of any of the posts above. Everything were searched and referenced from below</small></p>
-         <p><small><a href="http://en.wikipedia.org">WIKIPEDIA</a></small></p>
+         <p><small><a href="http://en.wikipedia.org/wiki/Reptile">WIKIPEDIA</a></small></p>
     </footer>
 
 </div> <!-- end container -->
-
-<!-- javascript -->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

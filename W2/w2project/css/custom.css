@@ -16,6 +16,9 @@ body {
 }
 
 /*------------------------------ NAVIGATION ------------------------------*/
+.padForNavbar {
+	padding: 0.5em 0;
+}
 .navbar-inverse .navbar-toggle {
 	color: white;
 	font-weight: bold;
